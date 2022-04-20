@@ -4,7 +4,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t lazarkalajdzic/docker-react -f Dockerfile.dev .
+  - docker build -f Dockerfile.dev .
 
 script:
-  - docker run lazarkalajdzic/docker-react npm run test -- --coverage
+  - docker run npm run test -- --coverage
