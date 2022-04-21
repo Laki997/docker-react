@@ -13,7 +13,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h1>cao</h1>
+          Learn Reactee
         </a>
       </header>
     </div>
